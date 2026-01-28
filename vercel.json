@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://homeenergybasics.com/battery",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://homeenergybasics.com/battery/$1",
+      "permanent": true
+    }
+  ]
+}
